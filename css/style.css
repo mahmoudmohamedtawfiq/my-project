@@ -1,0 +1,241 @@
+:root {
+    --maincolor :#198754;
+    --transition: all 0.3s;
+}
+.background-home-opacity {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 100%;
+    height: 100%;
+}
+#home {
+    background-image: url(../img/windows-MYomVPpR5FU-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+.nav-link {
+    font-size:20px;
+    position: relative;
+    margin-right: 5px;
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--maincolor);
+    width: 0;
+    transition: var(--transition);
+}
+.nav-link:hover::after{
+width: 100%;
+}
+.navbar-brand {
+    font-size:30px;
+
+}
+.mam {
+    font-size: 90px;
+    font-weight: bold;
+}
+.one {
+    font-size: 30px;
+    font-weight: bold;
+}
+.title{
+    margin-top: 100px;
+}
+.home-height {
+    background-size: cover;
+    width: opx;
+    height: 2PX;
+    background-color:var(--maincolor);
+    display:none;
+}
+.home-height  {
+    width: 60px;
+}
+ul li a:hover{
+    color:var(--maincolor) !important;
+    transition: var(--transition);
+    display: block;
+    opacity: 0.9;
+}
+.white{
+list-style: none;
+}
+.pragraf {
+    line-height: 30px;
+}
+.manthree {
+ width: 100px ;
+ height: 2px;
+ background-color:var(--maincolor);
+margin-left:40%;
+}
+.mahmoud-t {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 70px;
+}
+.row-one-min {
+    background-color: #F5F5F5;
+}
+.carousel-indicators [data-bs-target]{
+    text-indent: 0;
+    width: 100px;
+    height: 100px;
+    position: static;
+
+}
+.containe-dwo {
+background-color: blue;
+background-image: url(../img/windows-FV6Pma5U_98-unsplash.jpg);
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+#SERVEIES {
+    background-color: #F5F5F5;
+}
+
+.frequext-h1{
+    font-size:60px;
+}
+.frequext-h1::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 109%;
+    background-color: var(--maincolor);
+    width: 60px;
+    height: 5px;
+}
+.logo {
+width: 80px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+border: 6px solid var(--maincolor);
+}
+.logo:hover {
+    border: none;
+    background-color: var(--maincolor);
+    color: white;
+
+}
+.frist-img{
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+.elzero {
+    width: 80px;
+     height: 80px;
+    border: 5px solid var(--maincolor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--maincolor);
+   
+}
+#portfolio {
+    background-color: #F5F5F5;
+    margin-top: 50px;
+
+}
+.img-three{
+    margin-bottom: 30px;
+}
+.list-nona {
+    text-decoration: none;
+    color: var(--maincolor);
+}
+.father img {
+    transition: var(--transition);
+}
+.father:hover img {
+    transform: rotate(3deg) scale(1.2);
+}
+.card .ret::after {
+    content: "web desigen";
+    width: 100px; 
+    height: 30px;
+    background-color: var(--maincolor);
+    color: white;
+    padding: 8px 5px;
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-icon-three {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-top: 3px solid  var(--maincolor);
+}
+.bold-style {
+    background-image: url(../img/windows-FV6Pma5U_98-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.background-fro-cocntat {
+    background-color:#198754;
+}
+.background-for-cocntat{
+    background-color: white;
+}
+.send-use::after {
+    content: "";
+    position: absolute;
+    top: 48px;
+    left: 12px;
+    background-color: #198754;
+    width: 150px;
+    height: 5px;
+}
+.elbana::after{
+    content: "";
+    position: absolute;
+    top: 54px;
+    left: 9px;
+    width: 150px;
+    height: 4px;
+    background-color: var(--maincolor);
+}
+.mansoura {
+    border: 2px solid var(--maincolor) ;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+}
+.manlook {
+    width: 50px;
+    height: 50px;
+    border: 2px  solid var(--maincolor);
+    transition: var(--transition);
+
+}
+.manlook:hover  {
+background-color: #198754;
+border: solid 2px transparent;
+}
+.manlook a svg{
+    color: #198754;
+}
+.manlook:hover a svg{
+    color: white;
+}
